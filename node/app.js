@@ -8,3 +8,8 @@ var demo = demoServer();
 demo.listen(port, function() {
     console.log('Running ' + demo.type + ' server on port ' + port);
 })
+
+
+var demoRequest = require('./httpGetDemo.js')
+
+demoRequest()
